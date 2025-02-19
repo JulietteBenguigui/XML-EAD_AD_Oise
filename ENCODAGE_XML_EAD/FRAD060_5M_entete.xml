@@ -2,13 +2,17 @@
 <!DOCTYPE ead SYSTEM "ead.dtd">
 <ead>
     <eadheader>
+        <!-- Identifiant de l'instrument de recherche avec informations sur l'agence et le pays -->
         <eadid countrycode="FR" mainagencycode="FRAD060_5M" url="https://ressources.archives.oise.fr/ark:/44803/0c27090a106303c5">FRAD060_5M</eadid>
         <filedesc>
             <titlestmt>
+                <!-- Titre principal de l'instrument de recherche -->
                 <titleproper>SANTE PUBLIQUE ET HYGIENE</titleproper>
+                <!-- Sous-titre contenant la cote de la sous-série -->
                 <subtitle>5 M</subtitle>
             </titlestmt>
             <publicationstmt>
+                <!-- Informations sur l'éditeur du document -->
                 <publisher>Archives départementales de l'Oise</publisher>
                 <address>
                     <addressline>71 Rue de Tilloy, 60000 Beauvais</addressline>
@@ -16,6 +20,7 @@
             </publicationstmt>
         </filedesc>
         <profiledesc>
+            <!-- Informations sur la création et la standardisation de l'instrument de recherche -->
             <creation>Cet en-tête d'instrument de recherche, d'abord rédigé sur un logiciel de
                 traitement de texte dans le respect de la norme ISAD (G), a été converti en un
                 document XML conforme à la DTD EAD (version 2002) à l'aide du logiciel Oxygen XML Editor dans
@@ -25,8 +30,9 @@
                 Benguigui en <date era="ce" calendar="gregorian">2025</date>. Il a fait l'objet d'une harmonisation avec les
                 trois autres en-têtes encodés dans le cadre du projet pour faciliter l'agrégation
                 dans un moteur de recherche. </creation>
-            <langusage>Cet instrument de recherche est en <language langcode="fre"
-                    >français</language></langusage>
+            <!-- Langue du document -->
+            <langusage>Cet instrument de recherche est en <language langcode="fre">français</language></langusage>
+            <!-- Règles de description archivistique à préciser -->
             <descrules>ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT
                 DE RECHERCHE</descrules>
             <!-- EXEMPLE <descrules>Ce répertoire numérique est rédigé conformément à la norme ISAD
@@ -34,40 +40,44 @@
                 44-061 de juin 1986 <emph> Documentation – Catalogage -
                     Forme et structure des vedettes noms de personne, des vedettes titres, des
                     rubriques de classement et des titres forgés</emph></descrules>-->
-
         </profiledesc>
     </eadheader>
     <archdesc level="subseries">
         <did>
+            <!-- Cote de la sous-série archivistique -->
             <unitid type="cote">FRAD060_5M</unitid>
+            <!-- Titre de la sous-série -->
             <unittitle>Santé publique et hygiène</unittitle>
+            <!-- Période couverte par les documents -->
             <unitdate calendar="gregorian" era="ce" normal="1804-01-01/1951-12-31">1804-1951</unitdate>
+            <!-- Institution responsable de la conservation des documents -->
             <repository>
                 <corpname>Service des Archives Départementales de l'Oise</corpname>
             </repository>
         </did>
         <scopecontent>
-            <p>Cette sous-série comprend notamment les archives relatives au personnel médical, aux
+            <!-- Description du contenu de la sous-série avec renvoi vers une ressource externe -->
+            <p><archref href="https://archives.oise.fr/">Cette sous-série comprend notamment les archives relatives au personnel médical, aux
                 conseils et services d’hygiène, aux épidémies et maladies, aux vaccinations, à la
                 répression des fraudes et à la police sanitaire ainsi qu’aux établissements
-                insalubres. Cet inventaire comporte une table des matières.</p>
-            <!-- Indiquer la source -->
+                insalubres. Cet inventaire comporte une table des matières.</archref></p>
         </scopecontent>
         <accessrestrict>
+            <!-- Modalités d'accès à l'instrument de recherche -->
             <p>Instrument de recherche accessible librement sur le site des Archives Départementales
                 de l'Oise.</p>
         </accessrestrict>
         <controlaccess>
             <head>Noms géographiques:</head>
+            <!-- Lieux importants mentionnés dans les archives -->
             <geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
-            <geogname source="www.geonames.org">Clermont (France ; Hauts-de-France ;
-                Oise)</geogname>
-            <geogname source="www.geonames.org">Beauvais (France ; Hauts-de-France ;
-                Oise)</geogname>
+            <geogname source="www.geonames.org">Clermont (France ; Hauts-de-France ; Oise)</geogname>
+            <geogname source="www.geonames.org">Beauvais (France ; Hauts-de-France ; Oise)</geogname>
             <geogname source="www.geonames.org">Belgium</geogname>
         </controlaccess>
         <controlaccess>
             <head>Sujets :</head>
+            <!-- Thèmes couverts par les documents archivistiques -->
             <subject source="RAMEAU">Vaccination</subject>
             <subject source="RAMEAU">Santé publique</subject>
             <subject source="RAMEAU">Hôpitaux -- Personnel médical</subject>
@@ -79,6 +89,7 @@
         </controlaccess>
         <controlaccess>
             <head>Titres :</head>
+            <!-- Liste des titres de documents présents dans l'archive -->
             <title>Personnel médical</title>
             <title>Conseils d'hygiène</title>
             <title>Services d'hygiène</title>
@@ -91,10 +102,24 @@
             <title>Logements et établissements insalubres</title>
             <title>Hygiène et santé publique en Belgique</title>
         </controlaccess>
+        <controlaccess>
+            <head>Genres documentaires :</head>
+            <!-- Types de documents archivistiques présents -->
+            <genreform source="SIAF">statistique</genreform>
+            <genreform source="SIAF">diplôme</genreform>
+            <genreform source="SIAF">procès verbal</genreform>
+            <genreform source="SIAF">liste nominative</genreform>
+            <genreform source="SIAF">correspondance</genreform>
+            <genreform source="SIAF">rapport</genreform>
+            <genreform source="SIAF">registre</genreform>
+        </controlaccess>
         <otherfindaid>
-            <p> Pour la période postérieure à 1940, les archives relatives aux installations
-                classées pour la protection de l'enviro nnement (établissements classés) au sein des
-                archives de la préfecture.</p>
+            <!-- Autres sources complémentaires pour la recherche archivistique -->
+            <p><archref href="https://archives.oise.fr/">Pour la période postérieure à 1940, les archives relatives aux installations
+                classées pour la protection de l'environnement (établissements classés) au sein des
+                archives de la préfecture.</archref></p>
         </otherfindaid>
     </archdesc>
 </ead>
+
+           
