@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ead SYSTEM "ead.dtd">
 <ead>
-    <eadheader>
+    <!-- verifier les encoding element-->
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
         <!-- Identifiant de l'instrument de recherche avec informations sur l'agence et le pays -->
         <eadid countrycode="FR" mainagencycode="FRAD060_5M" url="https://ressources.archives.oise.fr/ark:/44803/0c27090a106303c5">FRAD060_5M</eadid>
         <filedesc>
