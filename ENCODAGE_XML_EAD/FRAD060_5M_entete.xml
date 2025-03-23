@@ -87,6 +87,14 @@
             <subject source="RAMEAU">Salubrité publique</subject>
             <subject source="RAMEAU">Abattoirs</subject>
             <subject source="RAMEAU">Logement insalubre</subject>
+            <subject source="RAMEAU">Mobilisation</subject>
+            <subject source="RAMEAU">Dentistes</subject>
+            <subject source="RAMEAU">Pharmacie</subject>
+            <subject source="RAMEAU">Infirmières</subject>
+            <subject source="RAMEAU">Médecins</subject>
+            <subject source="RAMEAU">Hôpitaux</subject>
+            <subject source="RAMEAU">Matériel médical</subject> 
+          
         </controlaccess>
         <controlaccess>
             <head>Titres :</head>
@@ -113,6 +121,10 @@
             <genreform source="SIAF">correspondance</genreform>
             <genreform source="SIAF">rapport</genreform>
             <genreform source="SIAF">registre</genreform>
+            <genreform source="SIAF">inventaire</genreform>
+            <genreform source="SIAF">liste</genreform>
+            <genreform source="SIAF">programme</genreform>
+            <genreform source="SIAF">plan</genreform>
         </controlaccess>
         <otherfindaid>
             <!-- Autres sources complémentaires pour la recherche archivistique -->

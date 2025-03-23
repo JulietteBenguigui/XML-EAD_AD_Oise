@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead SYSTEM "ead.dtd">
+<ead>
+    <!-- verifier les encoding element-->
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <!-- Identifiant de l'instrument de recherche avec informations sur l'agence et le pays -->
+        <eadid countrycode="FR" mainagencycode="FRAD060_5M" url="https://ressources.archives.oise.fr/ark:/44803/0c27090a106303c5">FRAD060_5M</eadid>
+        <filedesc>
+            <titlestmt>
+                <!-- Titre principal de l'instrument de recherche -->
+                <titleproper>SANTE PUBLIQUE ET HYGIENE</titleproper>
+                <!-- Sous-titre contenant la cote de la sous-série -->
+                <subtitle>5 M</subtitle>
+            </titlestmt>
+            <publicationstmt>
+                <!-- Informations sur l'éditeur du document -->
+                <publisher>Archives départementales de l'Oise</publisher>
+                <address>
+                    <addressline>71 Rue de Tilloy, 60000 Beauvais</addressline>
+                </address>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <!-- Informations sur la création et la standardisation de l'instrument de recherche -->
+            <creation>Cet en-tête d'instrument de recherche, d'abord rédigé sur un logiciel de
+                traitement de texte dans le respect de la norme ISAD (G), a été converti en un
+                document XML conforme à la DTD EAD (version 2002) à l'aide du logiciel Oxygen XML Editor dans
+                le cadre d'un projet de Master 2 "Archives - Technologies numériques appliquées à
+                l'histoire" à l'Ecole nationale des chartes par le groupe 4, composé d'Adonis
+                Dulaurent, de Bénédicte Tuza, de Pierre Husson, de Thibault Sabin, et de Juliette
+                Benguigui en <date era="ce" calendar="gregorian">2025</date>. Il a fait l'objet d'une harmonisation avec les
+                trois autres en-têtes encodés dans le cadre du projet pour faciliter l'agrégation
+                dans un moteur de recherche. </creation>
+            <!-- Langue du document -->
+            <langusage>Cet instrument de recherche est en <language langcode="fre">français</language></langusage>
+            <!-- Règles de description archivistique à préciser -->
+            <descrules>ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT
+                DE RECHERCHE</descrules>
+            <!-- EXEMPLE <descrules>Ce répertoire numérique est rédigé conformément à la norme ISAD
+                (G). L'indexation des noms de personnes est conforme à la norme AFNOR NF Z
+                44-061 de juin 1986 <emph> Documentation – Catalogage -
+                    Forme et structure des vedettes noms de personne, des vedettes titres, des
+                    rubriques de classement et des titres forgés</emph></descrules>-->
+        </profiledesc>
+    </eadheader>
+    <archdesc level="subseries">
+        <did>
+            <!-- Cote de la sous-série archivistique -->
+            <unitid type="cote">FRAD060_5M</unitid>
+            <!-- Titre de la sous-série -->
+            <unittitle>Santé publique et hygiène</unittitle>
+            <!-- Période couverte par les documents -->
+            <unitdate calendar="gregorian" era="ce" normal="1804-01-01/1951-12-31">1804-1951</unitdate>
+            <!-- Institution responsable de la conservation des documents -->
+            <repository>
+                <corpname>Service des Archives Départementales de l'Oise</corpname>
+            </repository>
+        </did>
+        <scopecontent>
+            <!-- Description du contenu de la sous-série avec renvoi vers une ressource externe -->
+            <p><archref href="https://archives.oise.fr/">Cette sous-série comprend notamment les archives relatives au personnel médical, aux
+                conseils et services d’hygiène, aux épidémies et maladies, aux vaccinations, à la
+                répression des fraudes et à la police sanitaire ainsi qu’aux établissements
+                insalubres. Cet inventaire comporte une table des matières.</archref></p>
+        </scopecontent>
+        <accessrestrict>
+            <!-- Modalités d'accès à l'instrument de recherche -->
+            <p>Instrument de recherche accessible librement sur le site des Archives Départementales
+                de l'Oise.</p>
+        </accessrestrict>
+        <controlaccess>
+            <head>Noms géographiques:</head>
+            <!-- Lieux importants mentionnés dans les archives -->
+            <geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
+            <geogname source="www.geonames.org">Clermont (France ; Hauts-de-France ; Oise)</geogname>
+            <geogname source="www.geonames.org">Beauvais (France ; Hauts-de-France ; Oise)</geogname>
+            <geogname source="www.geonames.org">Belgium</geogname>
+        </controlaccess>
+        <controlaccess>
+            <head>Sujets :</head>
+            <!-- Thèmes couverts par les documents archivistiques -->
+            <subject source="RAMEAU">Vaccination</subject>
+            <subject source="RAMEAU">Santé publique</subject>
+            <subject source="RAMEAU">Hôpitaux -- Personnel médical</subject>
+            <subject source="RAMEAU">Epidémies</subject>
+            <subject source="RAMEAU">Choléra</subject>
+            <subject source="RAMEAU">Salubrité publique</subject>
+            <subject source="RAMEAU">Abattoirs</subject>
+            <subject source="RAMEAU">Logement insalubre</subject>
+            <subject source="RAMEAU">Mobilisation</subject>
+            <subject source="RAMEAU">Dentistes</subject>
+            <subject source="RAMEAU">Pharmacie</subject>
+            <subject source="RAMEAU">Infirmières</subject>
+            <subject source="RAMEAU">Médecins</subject>
+            <subject source="RAMEAU">Hôpitaux</subject>
+            <subject source="RAMEAU">Matériel médical</subject> 
+            
+        </controlaccess>
+        <controlaccess>
+            <head>Titres :</head>
+            <!-- Liste des titres de documents présents dans l'archive -->
+            <title>Personnel médical</title>
+            <title>Conseils d'hygiène</title>
+            <title>Services d'hygiène</title>
+            <title>Etablissement médicaux</title>
+            <title>Pharmacies</title>
+            <title>Epidémies et maladies</title>
+            <title>Eaux et assainissement</title>
+            <title>Vaccinations</title>
+            <title>Répression des fraudes et police sanitaire</title>
+            <title>Logements et établissements insalubres</title>
+            <title>Hygiène et santé publique en Belgique</title>
+        </controlaccess>
+        <controlaccess>
+            <head>Genres documentaires :</head>
+            <!-- Types de documents archivistiques présents -->
+            <genreform source="SIAF">statistique</genreform>
+            <genreform source="SIAF">diplôme</genreform>
+            <genreform source="SIAF">procès verbal</genreform>
+            <genreform source="SIAF">liste nominative</genreform>
+            <genreform source="SIAF">correspondance</genreform>
+            <genreform source="SIAF">rapport</genreform>
+            <genreform source="SIAF">registre</genreform>
+            <genreform source="SIAF">registre</genreform>
+            <genreform source="SIAF">inventaire</genreform>
+            <genreform source="SIAF">liste</genreform>
+            <genreform source="SIAF">programme</genreform>
+            <genreform source="SIAF">plan</genreform>
+        </controlaccess>
+        <otherfindaid>
+            <!-- Autres sources complémentaires pour la recherche archivistique -->
+            <p><archref href="https://archives.oise.fr/">Pour la période postérieure à 1940, les archives relatives aux installations
+                classées pour la protection de l'environnement (établissements classés) au sein des
+                archives de la préfecture.</archref></p>
+        </otherfindaid>
+        <dsc>
+            <!-- Début de la description du contenu de l'instrument de recherche -->
+            <!-- Unité archivistique de niveau 1 : collection nommée "PERSONNEL MEDICAL" -->
+            <c01 level="collection">        
+                <did>
+                    <unitid>5M</unitid>
+                    <unittitle>PERSONNEL MEDICAL</unittitle>
+                    <!-- Cette collection pourrait faire l'objet d'une notice d'autorité pour normaliser le concept de "personnel médical" -->
+                </did>
+                <c02 level="recordgrp">
+                    <!-- Unité archivistique de niveau 2 : Le sous-groupe "Défense Nationale" -->
+                    <did>
+                        <unittitle>Défense Nationale</unittitle>
+                        <!-- "Défense Nationale" pourrait être géré dans une notice d'autorité ou de fonction -->
+                    </did>
+                    <c03 level="file">
+                        <!-- Unité archivistique de niveau 3 ; Référence spécifique d'un dossier (file) dans l'archive. Il s'agit d'une cote qui permet de retrouver physiquement le document. -->
+                        <did>
+                            <unitid>Mp 5266</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : <genreform source="SIAF">correspondance</genreform> sur l'exercice de la médecine en temps de guerre (remplacement des médecins mobilisés, etc) <unitdate normal="1939/1940" calendar="gregorian" era="ce">(1939-1940)</unitdate>, organisation sanitaire en cas de guerre (personnes nécessaires pour assurer le service médical de la population civile, etc.)</unittitle>
+                            <!-- Le terme "médecins" pourrait être géré dans une notice d'autorité -->
+                            <unitdate normal="1928/1940" calendar="gregorian" era="ce">1928-1940</unitdate>
+                        </did>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5260</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : instructions, tableaux des besoins matériels des services départementaux en temps de guerre.</unittitle>
+                            <unitdate normal="1929/1939" calendar="gregorian" era="ce">1929-1939</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Santé publique</subject>
+                            <!-- "Santé publique" pourrait être géré dans une notice d'autorité -->
+                            <subject source="RAMEAU">Mobilisation</subject>
+                            <!-- "Mobilisation" pourrait être géré dans une notice de fonction -->
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5256/1</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement du personnel médical en vue de la défense nationale (arrondissements de <geogname>Beauvais</geogname> et <geogname>Clermont</geogname>).</unittitle>
+                            <!-- Les noms de lieux "Beauvais" et "Clermont" pourraient être gérés dans des notices d'autorité géographiques -->
+                            <unitdate normal="1929/1939" calendar="gregorian" era="ce">1929-1939</unitdate>                           
+                        </did>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5256/2</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement du personnel médical en vue de la défense nationale (arrondissements de <geogname>Compiègne</geogname> et <geogname>Senlis</geogname>).</unittitle>
+                            <!-- Les noms de lieux "Compiègne" et "Senlis" pourraient être gérés dans des notices d'autorité géographiques -->
+                            <unitdate normal="1929/1939" calendar="gregorian" era="ce">1929-1939</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Hôpitaux -- Personnel médical</subject>
+                            <!-- "Hôpitaux" pourrait être géré dans une notice d'institution de conservation -->
+                            <!-- "Personnel médical" pourrait être géré dans une notice d'autorité -->
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5257/1</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement des dentistes en vue de la défense nationale.</unittitle>
+                            <!-- Le terme "dentistes" pourrait être géré dans une notice d'autorité professionnelle -->
+                            <unitdate normal="1930/1939" calendar="gregorian" era="ce">1930-1939</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Dentistes</subject>
+                            <!-- "Dentistes" est déjà géré via RAMEAU mais pourrait aussi être lié à une notice d'autorité spécifique -->
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5257/2</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement des pharmaciens en vue de la défense nationale.</unittitle>
+                            <!-- Le terme "pharmaciens" pourrait être géré dans une notice d'autorité professionnelle -->
+                            <unitdate normal="1929/1939" calendar="gregorian" era="ce">1929-1939</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Pharmacies</subject>
+                            <!-- "Pharmacies" pourrait être lié à une notice d'institution de conservation -->
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5284/1</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement des infirmières de la Maison Interdépartementale de <geogname>Clermont</geogname> en vue de la défense nationale.</unittitle>
+                            <!-- Le terme "infirmières" pourrait être géré dans une notice d'autorité professionnelle -->
+                            <!-- "Maison Interdépartementale de Clermont" pourrait être géré dans une notice d'institution de conservation -->
+                            <unitdate normal="1937" calendar="gregorian" era="ce">1937</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Infirmières</subject>
+                            <!-- "Infirmières" est déjà géré via RAMEAU mais pourrait aussi être lié à une notice d'autorité spécifique -->
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5284/2</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement des infirmières des autres établissements en vue de la défense nationale.</unittitle>
+                            <!-- "autres établissements" pourrait nécessiter des notices d'institutions de conservation -->
+                            <unitdate normal="1937" calendar="gregorian" era="ce">1937</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Infirmières</subject>
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5257/3</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement des infirmières des établissements médicaux autres que la Maison Interdépartementale de <geogname>Clermont</geogname> en vue de la défense nationale.</unittitle>
+                            <!-- "établissements médicaux" pourrait être géré dans des notices d'institutions de conservation -->
+                            <unitdate normal="1935/1941" calendar="gregorian" era="ce">1935-1941</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Infirmières</subject>
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5281/3</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement des médecins en vue de la défense nationale.</unittitle>
+                            <!-- Le terme "médecins" pourrait être géré dans une notice d'autorité professionnelle -->
+                            <unitdate normal="1928/1932" calendar="gregorian" era="ce">1928-1932</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Médecins</subject>
+                            <!-- "Médecins" est déjà géré via RAMEAU mais pourrait aussi être lié à une notice d'autorité spécifique -->
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5261/1</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : <genreform source="SIAF">inventaire</genreform> du matériel médical dans les hôpitaux et hospices, le centre municipal d'hygiène de <geogname>Creil</geogname> et l'asile d'aliénés de <geogname>Clermont</geogname>, <genreform source="SIAF">liste</genreform> des besoins en produits médicamenteux du département de l'<geogname>Oise</geogname>.</unittitle>
+                            <!-- "hôpitaux et hospices" pourraient être gérés dans des notices d'institutions de conservation -->
+                            <!-- "centre municipal d'hygiène de Creil" pourrait être géré dans une notice d'institution de conservation -->
+                            <!-- "asile d'aliénés de Clermont" pourrait être géré dans une notice d'institution de conservation -->
+                            <!-- Le nom du département "Oise" pourrait être géré dans une notice d'autorité géographique -->
+                            <unitdate normal="1935" calendar="gregorian" era="ce">1935</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Hôpitaux</subject>
+                            <subject source="RAMEAU">Matériel médical</subject>
+                            <!-- "Matériel médical" pourrait être géré dans une notice d'autorité -->
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5261/2</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : <genreform source="SIAF">inventaires</genreform> du matériel médical des offices d'hygiène sociale.</unittitle>
+                            <!-- "offices d'hygiène sociale" pourraient être gérés dans des notices d'institutions de conservation -->
+                            <unitdate normal="1935" calendar="gregorian" era="ce">1935</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Matériel médical</subject>
+                            <subject source="RAMEAU">Santé publique</subject>
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5281/1</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : <genreform source="SIAF">plan</genreform> de mise à l'abri et <genreform source="SIAF">programme</genreform> de repliement <unitdate normal="1932/1938" calendar="gregorian" era="ce">(1932, 1938)</unitdate>, demandes de mises en affectation spéciale (affectation médicale) pour les soins aux populations civiles de médecins, pharmaciens et agents de désinfection mobilisés <unitdate normal="1931/1940" calendar="gregorian" era="ce">(1931-1940)</unitdate>.</unittitle>
+                            <!-- "agents de désinfection" pourrait être géré dans une notice d'autorité professionnelle -->
+                            <unitdate normal="1931/1940" calendar="gregorian" era="ce">1931-1940</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Mobilisation</subject>
+                            <subject source="RAMEAU">Médecins</subject>
+                            <subject source="RAMEAU">Pharmacie</subject>
+                            <!-- "Pharmacie" pourrait être lié à une notice d'autorité ou d'institution -->
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5281/2</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : recensement du matériel, <genreform source="SIAF">listes nominatives</genreform> des médecins, pharmaciens et dentistes, tableaux des besoins en personnel et en matériel <unitdate normal="1930/1938" calendar="gregorian" era="ce">(1930-1938)</unitdate>, instructions sur l'organisation du territoire en secteurs sanitaires <unitdate normal="1929/1939" calendar="gregorian" era="ce">(1929-1939)</unitdate>, <genreform source="SIAF">rapports</genreform> sur l'organisation sanitaire du département (1929-1930), <genreform source="SIAF">procès-verbaux</genreform> de séances de la commission consultative départementale sur l'organisation sanitaire <unitdate normal="1930" calendar="gregorian" era="ce">(1930)</unitdate>.</unittitle>
+                            <!-- "commission consultative départementale" pourrait être gérée dans une notice d'institution -->
+                            <!-- "secteurs sanitaires" pourrait être géré dans une notice de fonction -->
+                            <unitdate normal="1929/1939" calendar="gregorian" era="ce">1929-1939</unitdate>
+                        </did>
+                        <controlaccess>
+                            <subject source="RAMEAU">Médecins</subject>
+                            <subject source="RAMEAU">Pharmaciens</subject>
+                            <subject source="RAMEAU">Dentistes</subject>
+                            <subject source="RAMEAU">Matériel médical</subject>
+                        </controlaccess>
+                    </c03>
+                    <c03 level="file">
+                        <did>
+                            <unitid>Mp 5264</unitid>
+                            <unittitle>Défense nationale. - Organisation sanitaire en cas de mobilisation : proposition d'organisation d'un poste de secours <unitdate normal="1937" calendar="gregorian" era="ce">(1937)</unitdate>, <genreform source="SIAF" normal="liste">listes</genreform> des industriels fabriquant des masques à gaz <unitdate normal="1939" calendar="gregorian" era="ce">(1939)</unitdate>, instructions pour l'emploi des masques à gaz <unitdate normal="1939" calendar="gregorian" era="ce">(1939)</unitdate>, prospectus sur les masques à gaz et autre matériel <unitdate normal="1932/1939">(1932-1939)</unitdate>.</unittitle>
+                            <!-- "poste de secours" pourrait être géré dans une notice d'institution de conservation -->
+                            <!-- "industriels" pourrait être géré dans des notices d'autorité pour les fabricants -->
+                            <unitdate normal="1928/1939" calendar="gregorian" era="ce">1928-1939</unitdate>                            
+                        </did>                       
+                    </c03>
+                </c02>
+            </c01>
+        </dsc>
+    </archdesc>
+    
+</ead>
+
+
