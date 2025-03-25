@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!DOCTYPE ead SYSTEM "ead.dtd">
 <ead>
-	<!-- verifier les encoding element-->
+	<!-- Encodage normaliser pour l'en-tête-->
 	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
 		repositoryencoding="iso15511" scriptencoding="iso15924">
 		<eadid countrycode="FR" mainagencycode="FR-751131015"
 			url="https://ressources.archives.oise.fr/ark:/44803/dc3dc090d62d88c3129861e5e8b7637f"
 			>FRAD060_EDT446</eadid>
+		
 		<filedesc>
-			<!-- verifier -->
 			<titlestmt>
 				<titleproper>Répertoire numérique des archives déposées de la commune de
 					Jonquière</titleproper>
+				
 				<subtitle>Répertoire méthodique détaillé de la sous-série 122 EDT</subtitle>
+				
 				<author>par Françoise Mazars, archiviste. Complété par Céline Dehondt, chargée
 					d'études documentaires principale; sous la direction de Fanny Reboul,
 					conservatrice du patrimoine.</author>
@@ -20,7 +22,7 @@
 
 			<publicationstmt>
 				<publisher>Archives départementales de l'Oise</publisher>
-				<date calendar="gregorian" era="ce" normal="2019-01-01">2019</date>
+				<date calendar="gregorian" era="ce" normal="2019-01-01/2019-12-31">2019</date>
 				<address>
 					<addressline>71 Rue de Tilloy,60000 Beauvais</addressline>
 				</address>
@@ -33,12 +35,6 @@
 			<langusage>Catalogue rédigé en <language langcode="fre">français</language>.</langusage>
 			<descrules>Encodage en XML-EAD version 2002</descrules>
 		</profiledesc>
-		<revisiondesc>
-			<change>
-				<date/>
-				<item/>
-			</change>
-		</revisiondesc>
 	</eadheader>
 
 	<archdesc level="fonds">
@@ -68,17 +64,17 @@
 					normal="archives départementales de l'oise"> archives départementales de
 					l’Oise</corpname>,le <date type="entrée" calendar="gregorian" era="ce"
 					normal="2016-10-27">27 octobre 2016</date> et le <date type="entrée"
-					calendar="gregorain" era="ce" normal="2018-06-08">7 juin 2018</date>en
+						calendar="gregorian" era="ce" normal="2018-06-08">7 juin 2018</date>en
 				application des articles L.212-11 à L.212-14 et R.212-57 à R.212-61 du code du
 				patrimoine. </p>
 		</acqinfo>
 		<scopecontent>
 			<p>Ce dépôt est principalement composé des registres paroissiaux et d’état civil de
-					<date calendar="gregorian" era="ce" normal="1663/1892">1633 à 1892</date>, des
+					<date calendar="gregorian" era="ce" normal="1663-01-01/1892-12-31">1633 à 1892</date>, des
 				registres de délibérations du <corpname role="producteur">conseil
 					municipal</corpname> de <date calendar="gregorian" era="ce" normal="1788/1926"
 					>1788 à 1926</date>, des documents cadastraux du <date calendar="gregorian"
-					era="ce" normal="1801/1900">XIXe siècle</date> et de documents relatifs aux
+					era="ce" normal="1801-01-01/1900-12-31">XIXe siècle</date> et de documents relatifs aux
 				bâtiments communaux.</p>
 		</scopecontent>
 		<arrangement>
@@ -103,8 +99,8 @@
 				conserve ses archives contemporaines.</p>
 			<p><corpname>Archives départementales de l’Oise</corpname>: La plupart des séries du
 				cadre de classement contiennent des documents relatifs à Jonquières. On signale en
-				particulier les sous-séries <archref>2 O (administration communale)</archref> et
-					<archref>3 O (vicinalité communale)</archref>.</p>
+				particulier les sous-séries <archref href="2 0">2 O (administration communale)</archref> et
+					<archref href="3 0">3 O (vicinalité communale)</archref>.</p>
 		</relatedmaterial>
 		<bibliography>
 			<bibref>GRAVES, Louis <emph render="italic">Précis statistique sur le canton de
@@ -126,27 +122,27 @@
 						<did>
 							<unitid>EDT 446/5 Q 1*-5 Q 4</unitid>
 							<unittitle>Protection des enfants.</unittitle>
-							<unitdate calendar="gregorian" era="ce" normal="1878/1934"
+							<unitdate calendar="gregorian" era="ce" normal="1878-01-01/1934-12-31"
 								>1878-1934</unitdate>
 						</did>
 						<c04 level="file">
 							<did>
 								<unitid>EDT 446/5 Q 1*-5 Q 2*</unitid>
 								<unittitle>Registres de déclarations des nourrices</unittitle>
-								<unitdate calendar="gregorian" era="ce" normal="1882/1934"
+								<unitdate calendar="gregorian" era="ce" normal="1882-01-01/1934-12-31"
 									>1882-1934</unitdate>
 							</did>
 							<c05 level="item">
 								<did>
 									<unitid>EDT 446/5 Q 1*</unitid>
-									<unitdate calendar="gregorian" era="ce" normal="1882/1903"
+									<unitdate calendar="gregorian" era="ce" normal="1882-01-01/1903-12-31"
 										>1882-1903</unitdate>
 								</did>
 							</c05>
 							<c05 level="item">
 								<did>
 									<unitid>EDT 446/5 Q 2*</unitid>
-									<unitdate calendar="gregorian" era="ce" normal="1902-1934"
+									<unitdate calendar="gregorian" era="ce" normal="1902-01-01/1934-12-31"
 										>1902-1934</unitdate>
 								</did>
 							</c05>
@@ -156,7 +152,7 @@
 								<unitid>EDT 446/5 Q 3</unitid>
 								<unittitle>Registre de déclarations des parents ou
 									ayants-droit.</unittitle>
-								<unitdate calendar="gregorian" era="ce" normal="1888-1928"
+								<unitdate calendar="gregorian" era="ce" normal="1888-01-01/1928-12-31"
 									>1888-1928</unitdate>
 							</did>
 						</c04>
@@ -165,7 +161,7 @@
 								<unitid>EDT 446/5 Q 4</unitid>
 								<unittitle>Certificats médicaux, états statistiques, avis d’arrivée,
 									arrêté préfectoral, correspondance.</unittitle>
-								<unitdate calendar="gregorian" era="ce" normal="1878/1905"
+								<unitdate calendar="gregorian" era="ce" normal="1878-01-01/1905-12-31"
 									>1878-1905</unitdate>
 							</did>
 						</c04>
@@ -185,7 +181,7 @@
 							<unitid>EDT 446/1 R 1</unitid>
 							<unittitle>Fournitures : factures (1881-1956). Effectifs : listes des
 								enfants âgés de 6 à 13 ans (1921- 1934).</unittitle>
-							<unitdate calendar="gregorian" era="ce" normal="1881/1956"
+							<unitdate calendar="gregorian" era="ce" normal="1881-01-01/1956-12-31"
 								>1881-1956</unitdate>
 						</did>
 					</c03>
@@ -199,7 +195,7 @@
 							<unitid>EDT 446/2 R 1</unitid>
 							<unittitle>Église, classement au titre des Monuments historiques :
 								arrêté ministériel.</unittitle>
-							<unitdate calendar="gregorian" era="ce" normal="1920">1920</unitdate>
+							<unitdate calendar="gregorian" era="ce" normal="1920-01-01/1920-12-31">1920</unitdate>
 						</did>
 					</c03>
 				</c02>
@@ -212,7 +208,7 @@
 							<unitid>EDT 446/3 R 1</unitid>
 							<unittitle>Le Réveil sportif de Jonquières : registre de
 								délibérations.</unittitle>
-							<unitdate calendar="gregorian" era="ce" normal="1911">1911</unitdate>
+							<unitdate calendar="gregorian" era="ce" normal="1911-01-01/1911-12-31">1911</unitdate>
 						</did>
 					</c03>
 				</c02>
@@ -230,14 +226,14 @@
 					<c03 level="file">
 						<did>
 							<unitid>EDT 446/S 1*</unitid>
-							<unitdate calendar="gregorian" era="ce" normal="1931/1932-07-31"
+							<unitdate calendar="gregorian" era="ce" normal="1931-01-01/1932-07-31"
 								>1911-1932 (31 juillet)</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
 							<unitid>EDT 446/S 2*</unitid>
-							<unitdate calendar="gregorian" era="ce" normal="1932-09-24/1958">1932
+							<unitdate calendar="gregorian" era="ce" normal="1932-09-24/1958-12-31ê">1932
 								(24 septembre)-1958</unitdate>
 						</did>
 						<userestrict>
