@@ -28,19 +28,16 @@
                 le cadre d'un projet de Master 2 "Archives - Technologies numériques appliquées à
                 l'histoire" à l'Ecole nationale des chartes par le groupe 4, composé d'Adonis
                 Dulaurent, de Bénédicte Tuza, de Pierre Husson, de Thibault Sabin, et de Juliette
-                Benguigui en <date era="ce" calendar="gregorian">2025</date>. Il a fait l'objet d'une harmonisation avec les
+                Benguigui en <date era="ce" calendar="gregorian" normal="2025-01-01">2025</date>. 
+                Il a fait l'objet d'une harmonisation avec les
                 trois autres en-têtes encodés dans le cadre du projet pour faciliter l'agrégation
-                dans un moteur de recherche. </creation>
+                dans un moteur de recherche. 
+            </creation>
             <!-- Langue du document -->
             <langusage>Cet instrument de recherche est en <language langcode="fre">français</language></langusage>
             <!-- Règles de description archivistique à préciser -->
             <descrules>ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT
                 DE RECHERCHE</descrules>
-            <!-- EXEMPLE <descrules>Ce répertoire numérique est rédigé conformément à la norme ISAD
-                (G). L'indexation des noms de personnes est conforme à la norme AFNOR NF Z
-                44-061 de juin 1986 <emph> Documentation – Catalogage -
-                    Forme et structure des vedettes noms de personne, des vedettes titres, des
-                    rubriques de classement et des titres forgés</emph></descrules>-->
         </profiledesc>
     </eadheader>
     <archdesc level="subseries">
@@ -54,6 +51,7 @@
             <!-- Institution responsable de la conservation des documents -->
             <repository>
                 <corpname>Service des Archives Départementales de l'Oise</corpname>
+                <!-- "Service des Archives Départementales de l'Oise" pourrait être géné dans une notice d'institution de conservation  -->
             </repository>
         </did>
         <scopecontent>
@@ -63,6 +61,23 @@
                 répression des fraudes et à la police sanitaire ainsi qu’aux établissements
                 insalubres. Cet inventaire comporte une table des matières.</archref></p>
         </scopecontent>
+        <arrangement>
+            <!-- Sommaire présent à la fin de l'instrument de recherche -->
+            <head>Table des matières</head>
+            <list type="simple">
+                <item>Personnel médical</item>
+                <item>Conseils d'hygiène</item>
+                <item>Services d'hygiène</item>
+                <item>Etablissement médicaux</item>
+                <item>Pharmacies</item>
+                <item>Epidémies et maladies</item>
+                <item>Eaux et assainissement</item>
+                <item>Vaccinations</item>
+                <item>Répression des fraudes et police sanitaire</item>
+                <item>Logements et établissements insalubres</item>
+                <item>Hygiène et santé publique en Belgique</item>          
+            </list>
+        </arrangement>
         <accessrestrict>
             <!-- Modalités d'accès à l'instrument de recherche -->
             <p>Instrument de recherche accessible librement sur le site des Archives Départementales
@@ -95,21 +110,6 @@
             <subject source="RAMEAU">Hôpitaux</subject>
             <subject source="RAMEAU">Matériel médical</subject> 
           
-        </controlaccess>
-        <controlaccess>
-            <head>Titres :</head>
-            <!-- Liste des titres de documents présents dans l'archive -->
-            <title>Personnel médical</title>
-            <title>Conseils d'hygiène</title>
-            <title>Services d'hygiène</title>
-            <title>Etablissement médicaux</title>
-            <title>Pharmacies</title>
-            <title>Epidémies et maladies</title>
-            <title>Eaux et assainissement</title>
-            <title>Vaccinations</title>
-            <title>Répression des fraudes et police sanitaire</title>
-            <title>Logements et établissements insalubres</title>
-            <title>Hygiène et santé publique en Belgique</title>
         </controlaccess>
         <controlaccess>
             <head>Genres documentaires :</head>
