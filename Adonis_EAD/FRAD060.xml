@@ -33,7 +33,7 @@
 			<creation>Encodé en 2025 par Adonis Dulaurent conformément à la DTD 2002, à l'aide du
 				logiciel oXygen XML Editor.</creation>
 			<langusage>Catalogue rédigé en <language langcode="fre">français</language>.</langusage>
-			<descrules>Encodage en XML-EAD version 2002</descrules>
+			<descrules>ici pierre ou qu'on doit batir notre église.</descrules>
 		</profiledesc>
 	</eadheader>
 
@@ -52,6 +52,7 @@
 			</origination>
 			<repository>
 				<corpname>Service des Archives Départementales de l'Oise</corpname>
+				<!-- "Services des Archives départementales de l'Oise" pourrait etre géré dans une notice d'instituion de conservation -->
 			</repository>
 		</did>
 		<bioghist>
@@ -59,7 +60,7 @@
 					normal="1789-01-01/1789-12-31">1789</date></p>
 		</bioghist>
 		<acqinfo>
-			<!-- verifier pour le source avant corpname...-->
+			
 			<p>Les documents ont été déposés aux <corpname authfilenumber="FRAD060"
 					normal="archives départementales de l'oise"> archives départementales de
 					l’Oise</corpname>,le <date type="entrée" calendar="gregorian" era="ce"
@@ -85,9 +86,39 @@
 		<accessrestrict>
 			<p>L’accès aux archives publiques est régi par les articles L. 213-1 à L. 213-3 du code
 				du patrimoine.</p>
-			<!--Ajouter un paragraphe pour voir si l'instrument de recherche est accessible
-				sur le site des archives de l'oise-->
 		</accessrestrict>
+		
+		<controlaccess>
+			<head>Nom géographiques: </head>
+			<!-- Lieux importants mentionnés dans les archives -->
+			<geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
+		</controlaccess>
+		
+		<controlaccess>
+			<head>Sujets :</head>
+			<!-- Thèmes couverts par les documents archivistiques -->
+			<subject source="RAMEAU">Protection de l'enfance</subject>
+			<subject source="RAMEAU">Assistance sociale</subject>
+			<subject source="RAMEAU">Instruction publique</subject>
+			<subject source="RAMEAU">Monuments historiques</subject>
+			<subject source="RAMEAU">Associations sportives</subject>
+			<subject source="RAMEAU">Registres paroissiaux</subject>
+			
+		</controlaccess>
+		
+		<controlaccess>
+			<head>Genres documentaires :</head>
+			<!-- Types de documents archivistiques présents -->
+			<genreform source="SIAF">registre</genreform>
+			<genreform source="SIAF">Certificat médical</genreform>
+			<genreform source="SIAF">Liste nominative</genreform>
+			<genreform source="SIAF">Facture</genreform>
+			<genreform source="SIAF">Arrêté</genreform>	
+			<genreform source="SIAF">Correspondance</genreform>
+			<genreform source="SIAF">Registre de délibérations</genreform>
+			
+		</controlaccess>
+		
 		<userestrict>
 			<p>Les reproductions sont possibles dans les conditions définies par les lois et
 				règlements en vigueur et l’arrêté portant règlement de la salle de lecture des
@@ -111,7 +142,7 @@
 		<dsc type="in-depth">
 			<c01 level="series">
 				<did>
-					<unittitle>Série Q: Assistance et prévoyance</unittitle>
+						<unittitle>Série Q: Assistance et prévoyance</unittitle>
 				</did>
 				<c02 level="subseries">
 					<did>
@@ -226,7 +257,7 @@
 					<c03 level="file">
 						<did>
 							<unitid>EDT 446/S 1*</unitid>
-							<unitdate calendar="gregorian" era="ce" normal="1931-01-01/1932-07-31"
+							<unitdate calendar="gregorian" era="ce" normal="1911-01-01/1932-07-31"
 								>1911-1932 (31 juillet)</unitdate>
 						</did>
 					</c03>
