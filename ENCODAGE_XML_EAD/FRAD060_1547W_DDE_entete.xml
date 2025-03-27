@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead SYSTEM "ead.dtd">
+<ead>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+        repositoryencoding="iso15511" scriptencoding="iso15924">
+        <!--
+ Identifiant de l'instrument de recherche avec informations sur l'agence et le pays 
+-->
+        <eadid countrycode="FR" mainagencycode="FRAD060_1547W_DDE"
+            url="https://ressources.archives.oise.fr/ark:/44803/7a8911f76ef5f7b5ba05634bc28e4726"
+            >FRAD060_1547W_DDE</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Direction départementale de l'équipement</titleproper>
+                <subtitle>FRAD060_1547W_DDE</subtitle>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Archives départementales de l’Oise</publisher>
+                <date era="ce" calendar="gregorian" normal="2014-12-08">2014-12-08</date>
+                <address>
+                    <addressline>71 Rue de Tilloy, 60000 Beauvais</addressline>
+                </address>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>
+                <!--
+ Informations sur la création et la standardisation de l'instrument de recherche 
+--> Le fonds décrit par ce bordereau de versement a été pris en charge par les
+                archives départementales de l'Oise le <date era="ce" calendar="gregorian"
+                    normal="2006-02-27">2006-02-27</date>. Ce bordereau de versement a été validé le
+                    <date era="ce" calendar="gregorian" normal="2014-12-08">2014-12-08</date> par la
+                directrice des archives départementales de l'Oise, Clotilde Romet. Cet en-tête
+                d'instrument de recherche, d'abord rédigé sur un logiciel de traitement de texte
+                dans le respect de la norme ISAD (G), a été converti en un document XML conforme à
+                la DTD EAD (version 2002) à l'aide du logiciel Oxygen XML Editor dans le cadre d'un
+                projet de Master 2 "Archives - Technologies numériques appliquées à l'histoire" à
+                l'Ecole nationale des chartes par le groupe 4, composé d'Adonis Dulaurent, de
+                Bénédicte Tuza, de Pierre Husson, de Thibault Sabin, et de Juliette Benguigui en
+                    <date era="ce" calendar="gregorian" normal="2025-01-01">2025</date>. Il a fait
+                l'objet d'une harmonisation avec les trois autres en-têtes encodés dans le cadre du
+                projet pour faciliter l'agrégation dans un moteur de recherche. </creation>
+            <!-- Langue du document -->
+            <langusage> Cet instrument de recherche est en <language langcode="fre"
+                    >français</language>
+            </langusage>
+            <!-- Règles de description archivistique à préciser -->
+            <descrules> ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT
+                DE RECHERCHE </descrules>
+        </profiledesc>
+    </eadheader>
+
+    <archdesc level="subseries">
+        <did>
+            <!-- Cote de la sous-série archivistique -->
+            <unitid type="cote">FRAD060_1547W_DDE</unitid>
+            <!-- Titre de la sous-série -->
+            <unittitle>Direction départementale de l'équipement</unittitle>
+            <!-- Période couverte par les documents -->
+            <unitdate calendar="gregorian" era="ce" normal="1954-01-01/1984-12-31"
+                >1954-1984</unitdate>
+            <physdesc>
+                <extent>28,64 ml</extent>
+                <extent>243 boîtes</extent>
+            </physdesc>
+            <!--
+ Institution responsable de la conservation des documents 
+-->
+            <repository>
+                <corpname>Service des Archives Départementales de l'Oise</corpname>
+                <!-- "Service des Archives départementales de l'Oise" pourrait être géré dans une notice d'institution de conservation. -->
+            </repository>
+        </did>
+        <scopecontent>
+            <!--
+ Description du contenu de la sous-série avec renvoi vers une ressource externe 
+-->
+            <p>
+                <archref href="https://archives.oise.fr/"> Cette sous-série comprend les registres
+                    de suivi des permis de constuire, les dossiers de permis de construire, classés
+                    par numéro d'enregistrement de réception de demande de permis de construire,
+                    ainsi qu'un album photographique des ccarrières de Bonneuil-en-Valois.</archref>
+            </p>
+        </scopecontent>
+        <arrangement>
+            <p>Les dossiers ont été échantillonnés par le service versant conformément aux
+                instructions de tri en vigueur : envron 10% des dossiers déposés les années de
+                recensement (soit 1968, 1975 et 1982) ont été conservés. Un listing détaille les
+                permis de construire versés à l'issue du tri. </p>
+            <arrangement>
+                <head>SOMMAIRE</head>
+                <list type="simple">
+                    <item>Registres de suivi des permis de construire</item>
+                    <item>Dossiers de permis de construire</item>
+                    <item>Album photographique des carrières de Bonneuil-en-Valois</item>
+                </list>
+            </arrangement>
+        </arrangement>
+        <accessrestrict>
+            <!-- Modalités d'accès à l'instrument de recherche -->
+            <p> Bordereau de versement réservé aux Archives départementales de l'Oise. </p>
+            <p> Communicabilité immédiate. </p>
+        </accessrestrict>
+        <controlaccess>
+            <head>Noms géographiques:</head>
+            <!-- Lieux importants mentionnés dans les archives -->
+            <geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
+            <geogname source="www.geonames.org">Meuse (France ; Grand Est)</geogname>
+            <geogname source="www.geonames.org">Bonneuil-en-Valois (France ; Hauts-de-France ; Oise
+                ; Arrondissement of Senlis)</geogname>
+        </controlaccess>
+        <controlaccess>
+            <head>Sujets :</head>
+            <!-- Thèmes couverts par les documents archivistiques -->
+            <subject source="RAMEAU">Permis de constuire</subject>
+            <subject source="RAMEAU">Urbanisme</subject>
+            <subject source="RAMEAU">Aménagement du territoire</subject>
+            <subject source="RAMEAU">Administration publique</subject>
+            <subject source="RAMEAU">Droit de l'urbanisme</subject>
+            <subject source="RAMEAU">Collectivités territoriales</subject>
+        </controlaccess>
+        <controlaccess>
+            <head>Genres documentaires :</head>
+            <!-- Types de documents archivistiques présents -->
+            <genreform source="SIAF">Bordereaux de versement</genreform>
+            <genreform source="SIAF">Registres</genreform>
+            <genreform source="SIAF">Dossiers></genreform>
+            <genreform source="SIAF">Dossiers de permis de construire></genreform>
+            <genreform source="SIAF">Documents administratifs></genreform>
+        </controlaccess>
+        <controlaccess>
+            <list type="simple">
+                <head>Liste des principales abréviations utilisées dans la liste des dossiers
+                    :</head>
+                <!-- Liste des abréviations des dossiers -->
+                <item>
+                    <abbr>CD</abbr>
+                    <expan>chemin départemental</expan>
+                </item>
+                <item>
+                    <abbr>CGC</abbr>
+                    <expan>chemin de grande communication</expan>
+                </item>
+                <item>
+                    <abbr>CR</abbr>
+                    <expan>chemin rural</expan>
+                </item>
+                <item>
+                    <abbr>CV</abbr>
+                    <expan>chemin vicinal</expan>
+                </item>
+                <item>
+                    <abbr>CVO</abbr>
+                    <expan>chemin vicinal ordinaire</expan>
+                </item>
+                <item>
+                    <abbr>HLM</abbr>
+                    <expan>Habitat à loyer modéré</expan>
+                </item>
+                <item>
+                    <abbr>OPAC</abbr>
+                    <expan>Office public d'aménagement et de construction</expan>
+                </item>
+                <item>
+                    <abbr>RN</abbr>
+                    <expan>route nationale</expan>
+                </item>
+                <item>
+                    <abbr>SANEF</abbr>
+                    <expan>Société des autoroutes du nord et de l'est de la France</expan>
+                </item>
+                <item>
+                    <abbr>SCI</abbr>
+                    <expan>Société civile immobilière</expan>
+                </item>
+                <item>
+                    <abbr>SEDO</abbr>
+                    <expan>Société d'équipement du département de l'Oise</expan>
+                </item>
+                <item>
+                    <abbr>SIVOM</abbr>
+                    <expan>Syndicat intercommunal à vocations multiples</expan>
+                </item>
+                <item>
+                    <abbr>VC</abbr>
+                    <expan>voie communale</expan>
+                </item>
+                <item>
+                    <abbr>ZAC</abbr>
+                    <expan>zone d'aménagement concerté</expan>
+                </item>
+                <item>
+                    <abbr>ZI</abbr>
+                    <expan>zone industrielle</expan>
+                </item>
+                <item>
+                    <abbr>ZUP</abbr>
+                    <expan>zone à urbaniser en priorité</expan>
+                </item>
+            </list>
+        </controlaccess>
+        <otherfindaid>
+            <!--
+ Autres sources complémentaires pour la recherche archivistique 
+-->
+            <p>
+                <archref href="https://archives.oise.fr/"> Pour la période postérieure à 1940, les
+                    archives relatives aux installations classées pour la protection de
+                    l'environnement (établissements classés) au sein des archives de la préfecture.
+                </archref>
+            </p>
+        </otherfindaid>
+    </archdesc>
+</ead>
