@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead SYSTEM "ead.dtd">
+<ead>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="FR" mainagencycode="FRAD060_H" url="https://ressources.archives.oise.fr/ark:/44803/7b7ee81b9c1171d0">FRAD060_H</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Répertoire méthodique de la série H</titleproper>
+                <subtitle>(supplément)</subtitle>
+                <subtitle>H 12001 à 12085</subtitle>
+                <author>établi par Christophe LEBLAN Attaché de conservation du patrimoine</author>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Archives départementales de l’Oise</publisher>
+                <date calendar="gregorian" era="ce" normal="2003-01-01/2022-12-31">2003, 2005, 2006, 2010, 2011, 2017, 2020, 2021, 2022</date>
+                <address>
+                    <addressline>71 rue de Tilloy, 60000 Beauvais</addressline>
+                </address>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Cet en-tête d'instrument de recherche, d'abord rédigé sur un logiciel de
+                traitement de texte dans le respect de la norme ISAD (G), a été converti en un
+                document XML conforme à la DTD EAD (version 2002) à l'aide du logiciel Oxygen XML Editor dans
+                le cadre d'un projet de Master 2 "Archives - Technologies numériques appliquées à
+                l'histoire" à l'Ecole nationale des chartes par le groupe 4, composé d'Adonis
+                Dulaurent, de Bénédicte Tuza, de Pierre Husson, de Thibault Sabin, et de Juliette
+                Benguigui en <date calendar="gregorian" era="ce" normal="2025-01-01">2025</date>. Il a fait l'objet d'une harmonisation avec les
+                trois autres en-têtes encodés dans le cadre du projet pour faciliter l'agrégation
+                dans un moteur de recherche.</creation>
+            <langusage>Cet instrument de recherche est en <language langcode="fre">français</language></langusage>
+            <descrules>ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT DE RECHERCHE</descrules>
+        </profiledesc>
+    </eadheader>
+    <frontmatter>
+        <div>
+            <head>INTRODUCTION</head>
+            <p>Cet instrument de recherche complète le répertoire numérique de la série H dressé en
+                1942 par J. Estienne. Il répertorie des pièces qui avaient été « oubliées » par J. Estienne et ses
+                prédécesseurs, proviennent d’autres séries d’archives ou qui sont entrées par voie
+                extraordinaire. Ces titres concernent des établissements ecclésiastiques réguliers supprimés à
+                la Révolution qui étaient implantés dans l’actuel département de l’Oise ou qui y possédaient
+                des biens.</p>
+            <p>Nombre des documents mentionnés dans ce répertoire ont été extraits des sous-séries
+                1Q et 2Q (Biens nationaux) lors de leur classement par Ph. Langlois dans les années 1930. Il
+                s’agit principalement de titres de rentes et de propriétés originaux qui figuraient dans des
+                dossiers relatifs à la liquidation des créances et à la vente des biens du clergé. Ces titres sont
+                généralement regroupés et attachés à des documents établis par l’administration
+                révolutionnaire ce qui explique pourquoi certains articles contiennent des pièces postérieures
+                à 1790.</p>
+            <p>Le plan de classement qui a été choisi par E. Coüard-Luys au XIXe siècle pour classer
+                la série H a été respecté. On trouvera donc d’abord les titres des ordres et communautés
+                d’hommes puis ceux des ordres et communautés de femmes et enfin ceux des Hôtels-Dieu et
+                hôpitaux. La liste précise des établissements concernés figure dans les pages qui suivent.</p>
+            <p>Un index alphabétique des noms de lieux a été ajouté en fin de répertoire. Pour
+                faciliter les recherches, les noms de lieux d’autres départements que l’Oise ont été mentionnés
+                à part.</p>
+        </div>
+    </frontmatter>
+    <archdesc level="fonds">
+        <did>
+            <unitid type="cote">FRAD060_H</unitid>
+            <unittitle>Répertoire méthodique de la série H, (supplément), H 12001 à 12085</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1109-01-01/1810-12-31">1109-1810</unitdate>
+            <physdesc>
+                <extent>84 articles</extent>
+            </physdesc>
+            <repository>
+                <corpname>Service des Archives départementales de l'Oise</corpname>
+                <!-- "Service des Archives départementales de l'Oise" pourrait être géré dans une notice d'institution de conservation -->
+            </repository>
+            <abstract> Cet instrument de recherche complète le répertoire numérique de la série H
+                dressé en 1942 par J. Estienne. Il répertorie des pièces qui avaient été « oubliées
+                » par J. Estienne et ses prédécesseurs, proviennent d’autres séries d’archives ou
+                qui sont entrées par voie extraordinaire. Ces titres concernent des établissements
+                ecclésiastiques réguliers supprimés à la Révolution qui étaient implantés dans
+                l’actuel département de l’Oise ou qui y possédaient des biens. </abstract>
+        </did>
+        <scopecontent>
+            <p>Nombre des documents mentionnés dans ce répertoire ont été extraits des sous-séries
+                1Q et 2Q (Biens nationaux) lors de leur classement par Ph. Langlois dans les années
+                1930. Il s’agit principalement de titres de rentes et de propriétés originaux qui
+                figuraient dans des dossiers relatifs à la liquidation des créances et à la vente
+                des biens du clergé. Ces titres sont généralement regroupés et attachés à des
+                documents établis par l’administration révolutionnaire ce qui explique pourquoi
+                certains articles contiennent des pièces postérieures à 1790.</p>
+        </scopecontent>
+        <arrangement>
+            <p>Le plan de classement qui a été choisi par E. Coüard-Luys au XIXe siècle pour classer
+                la série H a été respecté. On trouvera donc d’abord les titres des ordres et
+                communautés d’hommes puis ceux des ordres et communautés de femmes et enfin ceux des
+                Hôtels-Dieu et hôpitaux.</p>
+            <p>Un index alphabétique des noms de lieux a été ajouté en fin de répertoire. Pour
+                faciliter les recherches, les noms de lieux d’autres départements que l’Oise ont été mentionnés
+                à part.</p>
+            <arrangement>
+                <head>SOMMAIRE</head>
+                <list type="simple">
+                    <item>INTRODUCTION</item>
+                    <item>SOMMAIRE</item>
+                    <item>ORDRES ET COMMUNAUTES D’HOMMES
+                        <list type="simple">
+                            <item>CHANOINES DE SAINT-AUGUSTIN</item>
+                            <item>BENEDICTINS</item>
+                            <item>MOINES DE CLUNY</item>
+                            <item>CHARTREUX</item>
+                            <item>CISTERCIENS</item>
+                            <item>PREMONTRES</item>
+                            <item>TRINITAIRES</item>
+                            <item>FRANCISCAINS</item>
+                            <item>CELESTINS</item>
+                            <item>MINIMES</item>
+                            <item>ORDRE DE NOTRE-DAME DU MONT CARMEL ET DE SAINT-LAZARE</item>
+                            <item>JESUITES</item>
+                        </list>
+                    </item>
+                    <item>ORDRES ET COMMUNAUTES DE FEMMES
+                        <list type="simple">
+                            <item>BENEDICTINES</item>
+                            <item>CISTERCIENNES</item>
+                            <item>RELIGIEUSES DE FONTEVRAULT</item>
+                            <item>RELIGIEUSES DU TIERS-ORDRE DE SAINT-FRANÇOIS</item>
+                            <item>URSULINES</item>
+                            <item>VISITANDINES</item>
+                            <item>RELIGIEUSES DE LA PRESENTATION</item>
+                        </list>
+                    </item>
+                    <item>HOTELS-DIEU ET HOPITAUX
+                        <list type="simple">
+                            <item>Hôtel-Dieu de Beauvais</item>
+                            <item>Bureau des pauvres de Beauvais</item>
+                            <item>Hôtel-Dieu et hôpital de Chambly</item>
+                            <item>Bureau des pauvres, Hôtel-Dieu et hôpital de Clermont</item>
+                            <item>Hôtel-Dieu de Compiègne</item>
+                            <item>Hôtel-Dieu de Saint-Jean de Noyon</item>
+                        </list>
+                    </item>
+                </list>
+            </arrangement>
+        </arrangement>
+        <accessrestrict>
+            <p>Instrument de recherche accessible librement sur le site des Archives départementales de l'Oise.</p>
+        </accessrestrict>
+        <controlaccess>
+            <head>Noms géographiques:</head>
+            <!-- Lieux importants mentionnés dans le sommaire -->
+            <geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
+            <geogname source="www.geonames.org">Abbaye Saint-Quentin de Beauvais (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Beauvais)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Martin-aux-Bois (France ; Hauts-de-France ; Oise ; Arrondissement of Clermont ; Saint-Martin-aux-Bois)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Barthélémy de Noyon (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Noyon)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Notre-Dame de la Victoire de Senlis (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Senlis)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Saint-Maurice de Senlis (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Senlis)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Saint-Jean-aux-Bois (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Saint-Jean-aux-Bois)</geogname>
+            <geogname source="www.geonames.org">Abbaye royale d’Hérivaux (France ; Île-de-France ; Val d'Oise ; Arrondissement of Sarcelles ; Luzarches)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Lucien de Beauvais (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Beauvais)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Germer-de-Fly (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Saint-Germer-de-Fly)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Symphorien de Beauvais (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Beauvais)</geogname>
+            <geogname source="www.geonames.org">Abbaye Notre-Dame de Breteuil (France ; Hauts-de-France ; Oise ; Arrondissement of Clermont ; Breteuil)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Eloi de Noyon (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Noyon)</geogname>
+            <geogname source="www.geonames.org">Abbaye Saint-Corneille-et-Saint-Cyprien de Compiègne (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Compiègne)</geogname>
+            <geogname source="www.geonames.org">Basilique de Saint-Denis (France ; Île-de-France ; Seine-Saint-Denis ; Arrondissement of Saint-Denis ; Saint-Denis)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Médard de Soissons (France ; Hauts-de-France ; Aisne ; Arrondissement of Soissons ; Soissons)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Pierre de Corbie (France ; Hauts-de-France ; Somme ; Arrondissement of Amiens ; Corbie)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Saint-Mard (France ; Hauts-de-France ; Somme ; Arrondissement of Montdidier ; Saint-Mard)</geogname>
+            <geogname source="www.geonames.org">Prieuré d’Auneuil (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Auneuil)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Saint-Rémy de Montreuil-sur-Brêche (France ; Hauts-de-France ; Oise ; Arrondissement of Clermont ; Montreuil-sur-Brêche)</geogname>
+            <geogname source="www.geonames.org">Prieuré de La Croix-Saint-Ouen (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Lacroix-Saint-Ouen)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Notre-Dame de Bulles (France ; Hauts-de-France ; Oise ; Arrondissement of Clermont ; Bulles)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Saint-Aubin de Chambly (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Chambly)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Sainte-Marie-Madeleine de Mello (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Mello)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Saint-Leu-d’Esserent (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Saint-Leu-d'Esserent)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Saint-Nicolas d’Acy (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Acy-en-Multien)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Saint-Arnoul de Crépy (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Crépy-en-Valois)</geogname>
+            <geogname source="www.geonames.org">Prieuré d’Elincourt-Sainte-Marguerite (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Élincourt-Sainte-Marguerite)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Nanteuil-le-Haudouin (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Nanteuil-le-Haudouin)</geogname>
+            <geogname source="www.geonames.org">Abbaye d’Ourscamps (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Chiry-Ourscamp)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Beaupré (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Achy)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Chaalis (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Fontaine-Chaalis)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Lannoy (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Roy-Boissy)</geogname>
+            <geogname source="www.geonames.org">Monastère de Saint-Bernard (France ; Île-de-France ; Paris ; Paris ; Paris)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Lieu-Restauré (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Bonneuil-en-Valois)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Just-en-Chaussée (France ; Hauts-de-France ; Oise ; Arrondissement of Clermont ; Saint-Just-en-Chaussée)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Cerfroid (France ; Hauts-de-France ; Aisne ; Arrondissement of Château-Thierry ; Brumetz)</geogname>
+            <geogname source="www.geonames.org">Couvent des Pénitents de Courbevoie (France ; Île-de-France ; Hauts-de-Seine ; Arrondissement of Nanterre ; Courbevoie)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Saint-Paul (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Saint-Paul)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Notre-Dame de Soissons (France ; Hauts-de-France ; Aisne ; Arrondissement of Soissons ; Soissons)</geogname>
+            <geogname source="www.geonames.org">Abbaye de Gomerfontaine (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Trie-la-Ville)</geogname>
+            <geogname source="www.geonames.org">Abbaye du Parc-aux-Dames (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Auger-Saint-Vincent)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Wariville (France ; Hauts-de-France ; Oise ; Arrondissement of Clermont ; Litz)</geogname>
+            <geogname source="www.geonames.org">Prieuré de Collinances (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Thury-en-Valois)</geogname>
+            <geogname source="www.geonames.org">Couvent de Fontaine-les-Nonnes (France ; Île-de-France ; Seine-et-Marne ; Arrondissement of Meaux ; Douy-la-Ramée)</geogname>
+            <geogname source="www.geonames.org">Hôtel-Dieu de Beauvais (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Beauvais)</geogname>
+            <geogname source="www.geonames.org">Bureau des pauvres de Beauvais (France ; Hauts-de-France ; Oise ; Arrondissement of Beauvais ; Beauvais)</geogname>
+            <geogname source="www.geonames.org">Hôtel-Dieu et hôpital de Chambly (France ; Hauts-de-France ; Oise ; Arrondissement of Senlis ; Chambly)</geogname>
+            <geogname source="www.geonames.org">Bureau des pauvres, Hôtel-Dieu et hôpital de Clermont (France ; Hauts-de-France ; Oise ; Arrondissement of Clermont ; Clermont)</geogname>
+            <geogname source="www.geonames.org">Hôtel-Dieu de Compiègne (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Compiègne)</geogname>
+            <geogname source="www.geonames.org">Hôtel-Dieu de Saint-Jean de Noyon (France ; Hauts-de-France ; Oise ; Arrondissement of Compiègne ; Noyon)</geogname>
+        </controlaccess>
+        <controlaccess>
+            <head>Sujets :</head>
+            <!-- Thèmes couverts par les documents archivistiques -->
+            <subject source="RAMEAU">Histoire religieuse</subject>
+            <subject source="RAMEAU">Propriétés foncières</subject>
+            <subject source="RAMEAU">Administrations hospitalières</subject>
+            <subject source="RAMEAU">Actes juridiques</subject>
+            <subject source="RAMEAU">Histoire locale</subject>
+            <subject source="RAMEAU">Gestion domaniale</subject>
+            <subject source="RAMEAU">Institutions ecclésiastiques</subject>
+            <subject source="RAMEAU">Biens ecclésiastiques</subject>
+            <subject source="RAMEAU">Histoire régionale</subject>  
+            <subject source="SIAF">Administration</subject>
+            <subject source="SIAF">Administration générale</subject>
+            <subject source="SIAF">Régime seigneurial</subject>
+            <subject source="SIAF">Vie religieuse</subject>
+            <subject source="SIAF">Économie</subject>
+            <subject source="SIAF">Société</subject>
+        </controlaccess>
+        <controlaccess>
+            <head>Personnes :</head>
+            <!-- Personnes mentionnées dans l'instrument de recherche, qui devraient renvoyer à une notice d'autorité -->
+            <persname source="BnF" authfilenumber="FRBNF14592069">Clément IV</persname>
+            <persname>Pierre Roussel de la cure de Ménévillers</persname>
+            <persname>Louis de Boves</persname>
+            <persname>Pierre François Pasquier</persname>
+            <persname>Guérard de Milly</persname>
+            <persname>Simon au Pie</persname>
+            <persname>Lancelot au Pie</persname>
+            <persname>Jean de Pisseleu</persname>
+            <persname>Godeffroy de Caen</persname>
+            <persname>Jeanne de Choisy</persname>
+            <persname source="BnF" authfilenumber="FRBNF12208672">Mgr de Talleyrand-Périgord</persname>
+            <persname source="BnF" authfilenumber="FRBNF12012782">François Ier</persname>
+            <persname source="BnF" authfilenumber="FRBNF12398288">Philippe IV</persname>
+            <persname>Henri 1er</persname>
+            <persname>Nicolas Daniel</persname>
+            <persname source="BnF" authfilenumber="FRBNF13483678">Innocent IV</persname>
+            <persname source="BnF" authfilenumber="FRBNF13484687">Grégoire X</persname>
+            <persname source="BnF" authfilenumber="FRBNF13320363">Charles VII</persname>
+            <persname>Antoine de La Haye</persname>
+            <persname>Louis d’Authuille</persname>
+            <persname source="BnF" authfilenumber="FRBNF12034460">Louis IX</persname>
+            <persname>Jehan de Flecelles</persname>
+            <persname>André Nitot</persname>
+            <persname>Dom Pierre Regnault</persname>
+            <persname>Michel Chamillard</persname>
+            <persname>Etienne Pantson</persname>
+            <persname>Pierre Poncet</persname>
+            <persname>Monseigneur Henry Oswald de la Tour d’Auvergne</persname>
+            <persname source="BnF" authfilenumber="FRBNF12450459">M. de Béthune</persname>
+            <persname>Louis V Joseph de Bourbon-Condé</persname>
+            <persname>Robert Perache</persname>
+            <persname>Jean-Baptiste Chapoton</persname>
+            <persname>Marie Louise Adélaïde de Dauvet</persname>
+            <persname>Madeleine de Sourdis</persname>
+            <persname>Guy de Monceaux</persname>
+            <persname>Jacqueline de Monceaux</persname>
+            <persname>Madeleine de Clermont-Tonnerre</persname>
+            <persname>Isabelle de Clermont d’Amboise de Reynel</persname>
+            <persname>Claire Eugénie de Clermont d’Amboise</persname>
+            <persname source="BnF" authfilenumber="FRBNF11775096">Etienne René Potier de Gesvres</persname>
+            <persname>Hugo de Brachoel</persname>
+            <persname>Catherine Morel</persname>
+            <persname>Mathieu Guillaume Thérèse de Villenave</persname>
+            <persname>Nicolas Sanguin</persname>
+            <persname source="BnF" authfilenumber="FRBNF12216956">Urbain VIII</persname>
+            <persname>Marguerite Langlois</persname>
+            <persname>Snejdareck</persname>
+        </controlaccess>
+        <controlaccess>
+            <head>Ordres religieux</head>
+            <!-- Ordres religieux mentionnés dans l'instrument de recherche, qui devraient renvoyer à une notice de collectivité -->
+            <!-- Ordres et communautés d'hommes -->
+            <corpname role="homme">Chanoines de Saint-Augustin</corpname>
+            <corpname role="homme">Bénédictins</corpname>
+            <corpname role="homme">Moines de Cluny</corpname>
+            <corpname role="homme">Chartreux</corpname>
+            <corpname role="homme">Cisterciens</corpname>
+            <corpname role="homme">Prémontrés</corpname>
+            <corpname role="homme">Trinitaires</corpname>
+            <corpname role="homme">Franciscains</corpname>
+            <corpname role="homme">Célestins</corpname>
+            <corpname role="homme">Minimes</corpname>
+            <corpname role="homme">Ordre de Notre-Dame du Mont Carmel et de Saint-Lazare</corpname>
+            <corpname role="homme">Jésuites</corpname>           
+            <!-- Ordres et communautés de femmes -->
+            <corpname role="femme">Bénédictines</corpname>
+            <corpname role="femme">Cisterciennes</corpname>
+            <corpname role="femme">Religieuses de Fontevrault</corpname>
+            <corpname role="femme">Religieuses du Tiers-Ordre de Saint-François</corpname>
+            <corpname role="femme">Ursulines</corpname>
+            <corpname role="femme">Visitandines</corpname>
+            <corpname role="femme">Religieuses de la Présentation</corpname>
+        </controlaccess>
+        <controlaccess>
+            <head>Genres documentaires :</head>
+            <!-- Types de documents archivistiques présents -->
+            <genreform source="SIAF">titre de propriété</genreform>
+            <genreform source="SIAF">déclaration</genreform>
+            <genreform source="SIAF">bulle pontificale</genreform>
+            <genreform source="SIAF">inventaire</genreform>
+            <genreform source="SIAF">acte authentique</genreform>
+            <genreform source="SIAF">procès-verbal</genreform>
+            <genreform source="SIAF">statut</genreform>
+            <genreform source="SIAF">registre</genreform>
+            <genreform source="SIAF">publication officielle</genreform>
+            <genreform source="SIAF">répertoire</genreform>
+        </controlaccess>
+    </archdesc>
+</ead>
