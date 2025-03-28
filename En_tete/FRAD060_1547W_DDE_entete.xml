@@ -26,12 +26,7 @@
             <creation>
                 <!--
  Informations sur la création et la standardisation de l'instrument de recherche 
---> Le fonds décrit par ce bordereau de versement a été pris en charge par les
-                archives départementales de l'Oise le <date era="ce" calendar="gregorian"
-                    normal="2006-02-27">2006-02-27</date>. Ce bordereau de versement a été validé le
-                    <date era="ce" calendar="gregorian" normal="2014-12-08">2014-12-08</date> par la
-                directrice des archives départementales de l'Oise, Clotilde Romet. Cet en-tête
-                d'instrument de recherche, d'abord rédigé sur un logiciel de traitement de texte
+-->             Cet en-tête d'instrument de recherche, d'abord rédigé sur un logiciel de traitement de texte
                 dans le respect de la norme ISAD (G), a été converti en un document XML conforme à
                 la DTD EAD (version 2002) à l'aide du logiciel Oxygen XML Editor dans le cadre d'un
                 projet de Master 2 "Archives - Technologies numériques appliquées à l'histoire" à
@@ -70,6 +65,10 @@
                 <corpname>Service des Archives Départementales de l'Oise</corpname>
                 <!-- "Service des Archives départementales de l'Oise" pourrait être géré dans une notice d'institution de conservation. -->
             </repository>
+            <abstract>Le fonds décrit par ce bordereau de versement a été pris en charge par les
+                archives départementales de l'Oise le 2006-02-27. Ce bordereau de versement a été validé le
+                2014-12-08 par la directrice des archives départementales de l'Oise, Clotilde Romet.
+            </abstract>
         </did>
         <scopecontent>
             <!--
