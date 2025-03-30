@@ -10,16 +10,17 @@
 
       <filedesc>
          <titlestmt>
+            <!-- Titre principal de l'instrument de recherche -->
             <titleproper>Répertoire numérique des archives déposées de la commune de
                Jonquière</titleproper>
+            <!-- Sous-titre contenant la cote de la sous-série -->
+            <subtitle>EDT 446</subtitle>
 
-            <subtitle>Archives moderne</subtitle>
-
-            <author>par Françoise Mazars, archiviste. Complété par Céline Dehondt, chargée d'études
-               documentaires principale; sous la direction de Fanny Reboul, conservatrice du
-               patrimoine.</author>
+            <author>par Delphine Frottin, secrétaire de documentation,
+               sous la direction d’Aurélie Boyer, attachée de conservation du patrimoine.</author>
          </titlestmt>
-
+         
+         <!-- Informations sur l'éditeur du document -->
          <publicationstmt>
             <publisher>Archives départementales de l'Oise</publisher>
             <date calendar="gregorian" era="ce" normal="2019-01-01/2019-12-31">2019</date>
@@ -30,6 +31,7 @@
       </filedesc>
 
       <profiledesc>
+         <!-- Informations sur la création et la standardisation de l'instrument de recherche -->
          <creation>et en-tête d'instrument de recherche, d'abord rédigé sur un logiciel de
             traitement de texte dans le respect de la norme ISAD (G), a été converti en un document
             XML conforme à la DTD EAD (version 2002) à l'aide du logiciel Oxygen XML Editor dans le
@@ -40,21 +42,23 @@
             harmonisation avec les trois autres en-têtes encodés dans le cadre du projet pour
             faciliter l'agrégation</creation>
          <langusage>Catalogue rédigé en <language langcode="fre">français</language>.</langusage>
-         <descrules>ici pierre ou qu'on doit batir notre église.</descrules>
+         <descrules>ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT DE RECHERCHE</descrules>
       </profiledesc>
    </eadheader>
 
    <archdesc level="fonds">
       <did>
+         <!-- Cote de la sous-série archivistique -->
          <unitid type="cote">FR AD 60/EDT 466</unitid>
-         <unittitle>Archives de la communes de Jonquières</unittitle>
+         <!-- Titre de la sous-série -->
+         <unittitle>Repetoire numériques des archives déposées de la commune de Jonquières, FR AD 60/ EDT 446</unittitle>
          <unitdate calendar="gregorian" era="ce" normal="1633-01-01/1967-12-31">1633-1967</unitdate>
          <physdesc>
             <extent>3 ml</extent>
             <extent>84 articles</extent>
          </physdesc>
          <origination>
-            <corpname>Paroisse et commune de Jonquières</corpname>ê </origination>
+            <corpname>Paroisse et commune de Jonquières</corpname></origination>
          <repository>
             <corpname>Service des Archives Départementales de l'Oise</corpname>
             <!-- "Services des Archives départementales de l'Oise" pourrait être géré dans une notice d'institution de conservation -->
@@ -74,6 +78,7 @@
             des articles L.212-11 à L.212-14 et R.212-57 à R.212-61 du code du patrimoine. </p>
       </acqinfo>
       <scopecontent>
+         <!-- Description du contenu de la sous-série avec renvoi vers une ressource externe -->
          <p>Ce dépôt est principalement composé des registres paroissiaux et d’état civil de <date
                calendar="gregorian" era="ce" normal="1663-01-01/1892-12-31">1633 à 1892</date>, des
             registres de délibérations du <corpname role="producteur">conseil municipal</corpname>
@@ -91,5 +96,55 @@
          <p>L’accès aux archives publiques est régi par les articles L. 213-1 à L. 213-3 du code du
             patrimoine.</p>
       </accessrestrict>
+      
+      <controlaccess>
+      <head>Nom géographiques: </head>
+      <!-- Lieux importants mentionnés dans les archives -->
+      <geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
+      </controlaccess>
+      
+      <controlaccess>
+         <head>Sujets :</head>
+         <!-- Thèmes couverts par les documents archivistiques -->
+         <subject source="RAMEAU">Protection de l'enfance</subject>
+         <subject source="RAMEAU">Assistance sociale</subject>
+         <subject source="RAMEAU">Instruction publique</subject>
+         <subject source="RAMEAU">Monuments historiques</subject>
+         <subject source="RAMEAU">Associations sportives</subject>
+         <subject source="RAMEAU">Registres paroissiaux</subject>
+      </controlaccess>
+      
+      <controlaccess>
+         <head>Genres documentaires :</head>
+         <!-- Types de documents archivistiques présents -->
+         <genreform source="SIAF">registre</genreform>
+         <genreform source="SIAF">Certificat médical</genreform>
+         <genreform source="SIAF">Liste nominative</genreform>
+         <genreform source="SIAF">Facture</genreform>
+         <genreform source="SIAF">Arrêté</genreform>
+         <genreform source="SIAF">Correspondance</genreform>
+         <genreform source="SIAF">Registre de délibérations</genreform>    
+      </controlaccess>
+      
+      <userestrict>
+         <p>Les reproductions sont possibles dans les conditions définies par les lois et
+            règlements en vigueur et l’arrêté portant règlement de la salle de lecture des
+            archives départementales. Notamment, la réalisation même de la reproduction ne doit
+            pas porter atteinte à la bonne conservation de l’original.</p>
+      </userestrict>
+      <relatedmaterial>
+         <p><corpname>Archives communales de Jonquières</corpname>La commune de Jonquières
+            conserve ses archives contemporaines.</p>
+         <p><corpname>Archives départementales de l’Oise</corpname>: La plupart des séries du
+            cadre de classement contiennent des documents relatifs à Jonquières. On signale en
+            particulier les sous-séries <archref href="2 0">2 O (administration
+               communale)</archref> et <archref href="3 0">3 O (vicinalité
+                  communale)</archref>.</p>
+      </relatedmaterial>
+      
+      <bibliography>
+         <bibref>GRAVES, Louis <emph render="italic">Précis statistique sur le canton de
+            Compiègne.</emph>Paris : Res Universis, 1991 (1re éd. 1850).</bibref>
+      </bibliography>
    </archdesc>
 </ead>

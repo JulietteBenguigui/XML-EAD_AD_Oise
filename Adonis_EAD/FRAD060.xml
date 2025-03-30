@@ -7,19 +7,20 @@
 		<eadid countrycode="FR" mainagencycode="FR-751131015"
 			url="https://ressources.archives.oise.fr/ark:/44803/dc3dc090d62d88c3129861e5e8b7637f"
 			>FRAD060_EDT446</eadid>
-
+		
 		<filedesc>
 			<titlestmt>
+				<!-- Titre principal de l'instrument de recherche -->
 				<titleproper>Répertoire numérique des archives déposées de la commune de
 					Jonquière</titleproper>
-
-				<subtitle>Archives moderne</subtitle>
-
-				<author>par Françoise Mazars, archiviste. Complété par Céline Dehondt, chargée
-					d'études documentaires principale; sous la direction de Fanny Reboul,
-					conservatrice du patrimoine.</author>
+				<!-- Sous-titre contenant la cote de la sous-série -->
+				<subtitle>EDT 446</subtitle>
+				
+				<author>par Delphine Frottin, secrétaire de documentation,
+					sous la direction d’Aurélie Boyer, attachée de conservation du patrimoine.</author>
 			</titlestmt>
-
+			
+			<!-- Informations sur l'éditeur du document -->
 			<publicationstmt>
 				<publisher>Archives départementales de l'Oise</publisher>
 				<date calendar="gregorian" era="ce" normal="2019-01-01/2019-12-31">2019</date>
@@ -28,35 +29,36 @@
 				</address>
 			</publicationstmt>
 		</filedesc>
-
+		
 		<profiledesc>
+			<!-- Informations sur la création et la standardisation de l'instrument de recherche -->
 			<creation>et en-tête d'instrument de recherche, d'abord rédigé sur un logiciel de
-				traitement de texte dans le respect de la norme ISAD (G), a été converti en un
-				document XML conforme à la DTD EAD (version 2002) à l'aide du logiciel Oxygen XML
-				Editor dans le cadre d'un projet de Master 2 "Archives - Technologies numériques
-				appliquées à l'histoire" à l'Ecole nationale des chartes par le groupe 4, composé
-				d'Adonis Dulaurent, de Bénédicte Tuza, de Pierre Husson, de Thibault Sabin, et de
-				Juliette Benguigui en <date era="ce" calendar="gregorian">2025</date>. Il a fait
-				l'objet d'une harmonisation avec les trois autres en-têtes encodés dans le cadre du
-				projet pour faciliter l'agrégation</creation>
+				traitement de texte dans le respect de la norme ISAD (G), a été converti en un document
+				XML conforme à la DTD EAD (version 2002) à l'aide du logiciel Oxygen XML Editor dans le
+				cadre d'un projet de Master 2 "Archives - Technologies numériques appliquées à
+				l'histoire" à l'Ecole nationale des chartes par le groupe 4, composé d'Adonis Dulaurent,
+				de Bénédicte Tuza, de Pierre Husson, de Thibault Sabin, et de Juliette Benguigui en
+				<date era="ce" calendar="gregorian">2025</date>. Il a fait l'objet d'une
+				harmonisation avec les trois autres en-têtes encodés dans le cadre du projet pour
+				faciliter l'agrégation</creation>
 			<langusage>Catalogue rédigé en <language langcode="fre">français</language>.</langusage>
-			<descrules>ici pierre ou qu'on doit batir notre église.</descrules>
+			<descrules>ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT DE RECHERCHE</descrules>
 		</profiledesc>
 	</eadheader>
-
+	
 	<archdesc level="fonds">
 		<did>
+			<!-- Cote de la sous-série archivistique -->
 			<unitid type="cote">FR AD 60/EDT 466</unitid>
-			<unittitle>Archives de la communes de Jonquières</unittitle>
-			<unitdate calendar="gregorian" era="ce" normal="1633-01-01/1967-12-31"
-				>1633-1967</unitdate>
+			<!-- Titre de la sous-série -->
+			<unittitle>Repetoire numériques des archives déposées de la commune de Jonquières, FR AD 60/ EDT 446</unittitle>
+			<unitdate calendar="gregorian" era="ce" normal="1633-01-01/1967-12-31">1633-1967</unitdate>
 			<physdesc>
 				<extent>3 ml</extent>
 				<extent>84 articles</extent>
 			</physdesc>
 			<origination>
-				<corpname>Paroisse et commune de Jonquières</corpname>
-			</origination>
+				<corpname>Paroisse et commune de Jonquières</corpname></origination>
 			<repository>
 				<corpname>Service des Archives Départementales de l'Oise</corpname>
 				<!-- "Services des Archives départementales de l'Oise" pourrait être géré dans une notice d'institution de conservation -->
@@ -64,43 +66,43 @@
 		</did>
 		<bioghist>
 			<p>La paroisse de Jonquières devient une commune en <date calendar="gregorian" era="ce"
-					normal="1789-01-01/1789-12-31">1789</date></p>
+				normal="1789-01-01/1789-12-31">1789</date></p>
 		</bioghist>
 		<acqinfo>
-
+			
 			<p>Les documents ont été déposés aux <corpname authfilenumber="FRAD060"
-					normal="archives départementales de l'oise"> archives départementales de
-					l’Oise</corpname>,le <date type="entrée" calendar="gregorian" era="ce"
+				normal="archives départementales de l'oise"> archives départementales de
+				l’Oise</corpname>,le <date type="entrée" calendar="gregorian" era="ce"
 					normal="2016-10-27">27 octobre 2016</date> et le <date type="entrée"
-					calendar="gregorian" era="ce" normal="2018-06-07">7 juin 2018</date>en
-				application des articles L.212-11 à L.212-14 et R.212-57 à R.212-61 du code du
-				patrimoine. </p>
+						calendar="gregorian" era="ce" normal="2018-06-07">7 juin 2018</date>en application
+				des articles L.212-11 à L.212-14 et R.212-57 à R.212-61 du code du patrimoine. </p>
 		</acqinfo>
 		<scopecontent>
-			<p>Ce dépôt est principalement composé des registres paroissiaux et d’état civil de
-					<date calendar="gregorian" era="ce" normal="1663-01-01/1892-12-31">1633 à
-					1892</date>, des registres de délibérations du <corpname role="producteur"
-					>conseil municipal</corpname> de <date calendar="gregorian" era="ce"
-					normal="1788-01-01/1926-12-31">1788 à 1926</date>, des documents cadastraux du <date
-					calendar="gregorian" era="ce" normal="1801-01-01/1900-12-31">XIXe siècle</date>
-				et de documents relatifs aux bâtiments communaux.</p>
+			<!-- Description du contenu de la sous-série avec renvoi vers une ressource externe -->
+			<p>Ce dépôt est principalement composé des registres paroissiaux et d’état civil de <date
+				calendar="gregorian" era="ce" normal="1663-01-01/1892-12-31">1633 à 1892</date>, des
+				registres de délibérations du <corpname role="producteur">conseil municipal</corpname>
+				de <date calendar="gregorian" era="ce" normal="1788-01-01/1926-12-31">1788 à
+					1926</date>, des documents cadastraux du <date calendar="gregorian" era="ce"
+						normal="1801-01-01/1900-12-31">XIXe siècle</date> et de documents relatifs aux
+				bâtiments communaux.</p>
 		</scopecontent>
 		<arrangement>
 			<p>Cet ensemble a été classé conformément aux dispositions de l’arrêté du <date
-					calendar="gregorian" era="ce" normal="1926-12-31">31 décembre 1926</date>
-				portant règlement des archives communales.</p>
+				calendar="gregorian" era="ce" normal="1926-12-31">31 décembre 1926</date> portant
+				règlement des archives communales.</p>
 		</arrangement>
 		<accessrestrict>
-			<p>L’accès aux archives publiques est régi par les articles L. 213-1 à L. 213-3 du code
-				du patrimoine.</p>
+			<p>L’accès aux archives publiques est régi par les articles L. 213-1 à L. 213-3 du code du
+				patrimoine.</p>
 		</accessrestrict>
-
+		
 		<controlaccess>
 			<head>Nom géographiques: </head>
 			<!-- Lieux importants mentionnés dans les archives -->
 			<geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
 		</controlaccess>
-
+		
 		<controlaccess>
 			<head>Sujets :</head>
 			<!-- Thèmes couverts par les documents archivistiques -->
@@ -110,9 +112,8 @@
 			<subject source="RAMEAU">Monuments historiques</subject>
 			<subject source="RAMEAU">Associations sportives</subject>
 			<subject source="RAMEAU">Registres paroissiaux</subject>
-
 		</controlaccess>
-
+		
 		<controlaccess>
 			<head>Genres documentaires :</head>
 			<!-- Types de documents archivistiques présents -->
@@ -122,10 +123,9 @@
 			<genreform source="SIAF">Facture</genreform>
 			<genreform source="SIAF">Arrêté</genreform>
 			<genreform source="SIAF">Correspondance</genreform>
-			<genreform source="SIAF">Registre de délibérations</genreform>
-
+			<genreform source="SIAF">Registre de délibérations</genreform>    
 		</controlaccess>
-
+		
 		<userestrict>
 			<p>Les reproductions sont possibles dans les conditions définies par les lois et
 				règlements en vigueur et l’arrêté portant règlement de la salle de lecture des
@@ -139,11 +139,12 @@
 				cadre de classement contiennent des documents relatifs à Jonquières. On signale en
 				particulier les sous-séries <archref href="2 0">2 O (administration
 					communale)</archref> et <archref href="3 0">3 O (vicinalité
-				communale)</archref>.</p>
+						communale)</archref>.</p>
 		</relatedmaterial>
+		
 		<bibliography>
 			<bibref>GRAVES, Louis <emph render="italic">Précis statistique sur le canton de
-					Compiègne.</emph>Paris : Res Universis, 1991 (1re éd. 1850).</bibref>
+				Compiègne.</emph>Paris : Res Universis, 1991 (1re éd. 1850).</bibref>
 		</bibliography>
 
 		<!-- début de la description des instruments de recherche -->
