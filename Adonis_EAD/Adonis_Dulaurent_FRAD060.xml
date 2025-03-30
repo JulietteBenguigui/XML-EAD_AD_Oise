@@ -42,7 +42,28 @@
 				harmonisation avec les trois autres en-têtes encodés dans le cadre du projet pour
 				faciliter l'agrégation</creation>
 			<langusage>Catalogue rédigé en <language langcode="fre">français</language>.</langusage>
-			<descrules>ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT DE RECHERCHE</descrules>
+			
+			<descrules> Cet instrument de recherche a été rédigé conformément à la Norme générale et
+				internationale de description archivistique <ref
+					href="https://www.ica.org/fr/resource/isadg-norme-generale-et-internationale-de-description-archivistique-deuxieme-edition/"
+					>ISAD(G)</ref> (2e édition, 2000), et à la Norme internationale sur les notices
+				d'autorité utilisées pour les Archives relatives aux collectivités, aux personnes ou aux
+				familles <ref
+					href="https://www.ica.org/fr/resource/isaar-cpf-norme-internationale-sur-les-notices-dautorite-utilisees-pour-les-archives-relatives-aux-collectivites-aux-personnes-ou-aux-familles-2eme-edition/"
+					> ISAAR(CPF)</ref> (2e édition, 2004). La description est également conforme aux
+				recommandations du Service interministériel des Archives de France (SIAF), notamment
+				pour le contrôle d'autorité et les règles de catalogage, et aux pratiques descriptives
+				des Archives départementales de l'Oise. L'encodage suit le standard <ref
+					href="https://www.loc.gov/ead/">EAD (Encoded Archival Description) 2002</ref> et les
+				règles d'application du <ref
+					href="https://www.numerique.gouv.fr/publications/interoperabilite/">Référentiel
+					général d'interopérabilité (RGI)</ref>. L'indexation sujet a été réalisée à l'aide du
+				référentiel <ref href="https://rameau.bnf.fr/">RAMEAU</ref>. Les lieux sont normalisés
+				selon le vocabulaire contrôlé de <ref href="https://www.geonames.org/">Geonames</ref>.
+				Les dates suivent le format <ref
+					href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO 8601</ref>
+				(AAAA-MM-JJ). </descrules>
+			
 		</profiledesc>
 	</eadheader>
 	

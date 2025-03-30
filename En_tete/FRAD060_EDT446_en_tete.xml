@@ -16,10 +16,10 @@
             <!-- Sous-titre contenant la cote de la sous-série -->
             <subtitle>EDT 446</subtitle>
 
-            <author>par Delphine Frottin, secrétaire de documentation,
-               sous la direction d’Aurélie Boyer, attachée de conservation du patrimoine.</author>
+            <author>par Delphine Frottin, secrétaire de documentation, sous la direction d’Aurélie
+               Boyer, attachée de conservation du patrimoine.</author>
          </titlestmt>
-         
+
          <!-- Informations sur l'éditeur du document -->
          <publicationstmt>
             <publisher>Archives départementales de l'Oise</publisher>
@@ -41,8 +41,29 @@
                <date era="ce" calendar="gregorian">2025</date>. Il a fait l'objet d'une
             harmonisation avec les trois autres en-têtes encodés dans le cadre du projet pour
             faciliter l'agrégation</creation>
+         
          <langusage>Catalogue rédigé en <language langcode="fre">français</language>.</langusage>
-         <descrules>ICI AJOUTER DES REGLES DE DESCRIPTION COMMUNES A NOS 4 EN TETES D'INSTRUMENT DE RECHERCHE</descrules>
+         <descrules> Cet instrument de recherche a été rédigé conformément à la Norme générale et
+            internationale de description archivistique <ref
+               href="https://www.ica.org/fr/resource/isadg-norme-generale-et-internationale-de-description-archivistique-deuxieme-edition/"
+               >ISAD(G)</ref> (2e édition, 2000), et à la Norme internationale sur les notices
+            d'autorité utilisées pour les Archives relatives aux collectivités, aux personnes ou aux
+            familles <ref
+               href="https://www.ica.org/fr/resource/isaar-cpf-norme-internationale-sur-les-notices-dautorite-utilisees-pour-les-archives-relatives-aux-collectivites-aux-personnes-ou-aux-familles-2eme-edition/"
+               > ISAAR(CPF)</ref> (2e édition, 2004). La description est également conforme aux
+            recommandations du Service interministériel des Archives de France (SIAF), notamment
+            pour le contrôle d'autorité et les règles de catalogage, et aux pratiques descriptives
+            des Archives départementales de l'Oise. L'encodage suit le standard <ref
+               href="https://www.loc.gov/ead/">EAD (Encoded Archival Description) 2002</ref> et les
+            règles d'application du <ref
+               href="https://www.numerique.gouv.fr/publications/interoperabilite/">Référentiel
+               général d'interopérabilité (RGI)</ref>. L'indexation sujet a été réalisée à l'aide du
+            référentiel <ref href="https://rameau.bnf.fr/">RAMEAU</ref>. Les lieux sont normalisés
+            selon le vocabulaire contrôlé de <ref href="https://www.geonames.org/">Geonames</ref>.
+            Les dates suivent le format <ref
+               href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO 8601</ref>
+            (AAAA-MM-JJ). </descrules>
+         
       </profiledesc>
    </eadheader>
 
@@ -51,7 +72,8 @@
          <!-- Cote de la sous-série archivistique -->
          <unitid type="cote">FR AD 60/EDT 466</unitid>
          <!-- Titre de la sous-série -->
-         <unittitle>Repetoire numériques des archives déposées de la commune de Jonquières, FR AD 60/ EDT 446</unittitle>
+         <unittitle>Repetoire numériques des archives déposées de la commune de Jonquières, FR AD
+            60/ EDT 446</unittitle>
          <unitdate calendar="gregorian" era="ce" normal="1633-01-01/1967-12-31">1633-1967</unitdate>
          <physdesc>
             <extent>3 ml</extent>
@@ -96,13 +118,13 @@
          <p>L’accès aux archives publiques est régi par les articles L. 213-1 à L. 213-3 du code du
             patrimoine.</p>
       </accessrestrict>
-      
+
       <controlaccess>
-      <head>Nom géographiques: </head>
-      <!-- Lieux importants mentionnés dans les archives -->
-      <geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
+         <head>Nom géographiques: </head>
+         <!-- Lieux importants mentionnés dans les archives -->
+         <geogname source="www.geonames.org">Oise (France ; Hauts-de-France)</geogname>
       </controlaccess>
-      
+
       <controlaccess>
          <head>Sujets :</head>
          <!-- Thèmes couverts par les documents archivistiques -->
@@ -113,7 +135,7 @@
          <subject source="RAMEAU">Associations sportives</subject>
          <subject source="RAMEAU">Registres paroissiaux</subject>
       </controlaccess>
-      
+
       <controlaccess>
          <head>Genres documentaires :</head>
          <!-- Types de documents archivistiques présents -->
@@ -123,28 +145,27 @@
          <genreform source="SIAF">Facture</genreform>
          <genreform source="SIAF">Arrêté</genreform>
          <genreform source="SIAF">Correspondance</genreform>
-         <genreform source="SIAF">Registre de délibérations</genreform>    
+         <genreform source="SIAF">Registre de délibérations</genreform>
       </controlaccess>
-      
+
       <userestrict>
-         <p>Les reproductions sont possibles dans les conditions définies par les lois et
-            règlements en vigueur et l’arrêté portant règlement de la salle de lecture des
-            archives départementales. Notamment, la réalisation même de la reproduction ne doit
-            pas porter atteinte à la bonne conservation de l’original.</p>
+         <p>Les reproductions sont possibles dans les conditions définies par les lois et règlements
+            en vigueur et l’arrêté portant règlement de la salle de lecture des archives
+            départementales. Notamment, la réalisation même de la reproduction ne doit pas porter
+            atteinte à la bonne conservation de l’original.</p>
       </userestrict>
       <relatedmaterial>
-         <p><corpname>Archives communales de Jonquières</corpname>La commune de Jonquières
-            conserve ses archives contemporaines.</p>
-         <p><corpname>Archives départementales de l’Oise</corpname>: La plupart des séries du
-            cadre de classement contiennent des documents relatifs à Jonquières. On signale en
-            particulier les sous-séries <archref href="2 0">2 O (administration
-               communale)</archref> et <archref href="3 0">3 O (vicinalité
-                  communale)</archref>.</p>
+         <p><corpname>Archives communales de Jonquières</corpname>La commune de Jonquières conserve
+            ses archives contemporaines.</p>
+         <p><corpname>Archives départementales de l’Oise</corpname>: La plupart des séries du cadre
+            de classement contiennent des documents relatifs à Jonquières. On signale en particulier
+            les sous-séries <archref href="2 0">2 O (administration communale)</archref> et <archref
+               href="3 0">3 O (vicinalité communale)</archref>.</p>
       </relatedmaterial>
-      
+
       <bibliography>
          <bibref>GRAVES, Louis <emph render="italic">Précis statistique sur le canton de
-            Compiègne.</emph>Paris : Res Universis, 1991 (1re éd. 1850).</bibref>
+               Compiègne.</emph>Paris : Res Universis, 1991 (1re éd. 1850).</bibref>
       </bibliography>
    </archdesc>
 </ead>
